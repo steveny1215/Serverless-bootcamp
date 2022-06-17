@@ -10,6 +10,7 @@ module.exports = async function (context, req) {
     // we need to receive it as a buffer since this is an image we are receiving from the API
     
     var base64data = Buffer.from(data).toString('base64')
+    //put what you want to turn into base64 inside "originaldata"
 
     context.res = {
         // status: 200, /* Defaults to 200 */
