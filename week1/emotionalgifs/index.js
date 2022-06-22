@@ -16,15 +16,15 @@ module.exports = async function (context, req) {
     // analyzes the image
     const result = await analyzeImage(parts[0].data);
 
-    /*
+    
     let emotions = result[0].faceAttributes.emotion;    
     let objects = Object.values(emotions);
     const main_emotion = Object.keys(emotions).find(key => emotions[key] === Math.max(...objects));
-*/
+
     context.res = {
         body: {
-          result
-          //main_emotion
+          //result
+          main_emotion
 
         }
     };
