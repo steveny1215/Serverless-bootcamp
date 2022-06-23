@@ -9,9 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "morse-code-converter": "^1.0.2",
-    "node-fetch": "^2.6.7"
-  }
+    "node-fetch": "^2.6.1",
+    "parse-multipart": "^1.0.4"
+  },
+  "description": ""
 }
